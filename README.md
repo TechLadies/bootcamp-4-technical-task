@@ -56,11 +56,13 @@ Here is a link to a [sample technical task application](#some-link) (do note tha
 
 Join us at our upcoming pre-bootcamp workshops where we will teach you the skills to complete the Technical Task!
 
-Workshop #1 on 14 July, 1 - 6pm: [url to RSVP]
-Workshop #2 on 21 July, 1 - 6pm: [url to RSVP]
-Workshop #3 on 28 July, 1 - 6pm: [url to RSVP]
+1. Workshop #1 on 14 July, 1 - 6pm: [url to RSVP]
+2. Workshop #2 on 21 July, 1 - 6pm: [url to RSVP]
+3. Workshop #3 on 28 July, 1 - 6pm: [url to RSVP]
 
 Remember, we have lots of online resources to help you out!
+
+### Resources
 
 **JavaScript**
 - [Introduction to JavaScript on Codeacademy](https://www.codecademy.com/learn/introduction-to-javascript)
