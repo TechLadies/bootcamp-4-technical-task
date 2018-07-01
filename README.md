@@ -42,7 +42,7 @@ This will require knowing how to use a version control system such as [Git](http
 
 ### Sample Application
 
-Here is a link to a [sample technical task application](#some-link) (do note that it may take some time for the webpage to load). This is just to give you an idea of what you can build and what your final product might look like. *In no way are we expecting you to replicate this or do anything in a similar style (we don't want to limit your creativity!). However, it is also perfectly fine if you choose to do so.*
+Here is a link to a [sample technical task application](https://tech-task-sample-app.herokuapp.com/) (do note that it may take some time for the webpage to load). This is just to give you an idea of what you can build and what your final product might look like. *In no way are we expecting you to replicate this or do anything in a similar style (we don't want to limit your creativity!). However, it is also perfectly fine if you choose to do so.*
 
 ## 3. Submitting Your Entry
 
