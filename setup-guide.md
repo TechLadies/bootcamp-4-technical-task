@@ -1,5 +1,7 @@
 # Setup Guide
 
+To participate in the TechLadies prebootcamp workshops, and in the actual bootcamp itself, we expect you to have your machines set up for development. This guide will walk you through installing the necessary software and dependencies to get started. The instructions will differ depending on the operating system you're on.
+
 <!-- vim-markdown-toc GFM -->
 
 * [UN*X systems (macOS/Linux)](#unx-systems-macoslinux)
@@ -16,8 +18,6 @@
   * [That's all folks!](#thats-all-folks)
 
 <!-- vim-markdown-toc -->
-
-To participate in the TechLadies prebootcamp workshops, and in the actual bootcamp itself, we expect you to have your machines set up for development. This guide will walk you through installing the necessary software and dependencies to get started. The instructions will differ depending on the operating system you're on.
 
 ## UN*X systems (macOS/Linux)
 ### Your text editor
