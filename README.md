@@ -1,5 +1,19 @@
 # TechLadies Bootcamp 4 - Technical Task Submission
 
+<!-- vim-markdown-toc GFM -->
+
+* [1. Introduction](#1-introduction)
+* [2. The Technical Task](#2-the-technical-task)
+  * [Want to increase your chances of being selected for the bootcamp?](#want-to-increase-your-chances-of-being-selected-for-the-bootcamp)
+  * [Want some Brownie Points?](#want-some-brownie-points)
+  * [Sample Application](#sample-application)
+* [3. Submitting Your Entry](#3-submitting-your-entry)
+* [4. How do I get started?](#4-how-do-i-get-started)
+  * [Resources](#resources)
+* [5. Questions?](#5-questions)
+
+<!-- vim-markdown-toc -->
+
 ## 1. Introduction
 
 The TechLadies Bootcamp #4 is a 12-week part-time accelerated learning program designed for women who wish to be professional programmers. Participants will be guided by industry experts to create products for Sustainable Solutions Network Singapore (SSN Singapore) OR Centre for a Responsible Future (CRF) using JavaScript technologies.
