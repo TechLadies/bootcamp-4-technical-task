@@ -23,7 +23,7 @@ You should see `Hello world!` output on the next line. See, using the command-li
 
 If you are on macOS, please follow this [guide](https://www.maketecheasier.com/install-command-line-tools-without-xcode/) to install the Xcode Command Line Tools. You will need this to install other software in the later steps. Do note that at the step when you see this prompt:
 
-[!xcode-install-prompt](https://www.maketecheasier.com/assets/uploads/2016/05/cmdtools-install.png)
+![xcode-install-prompt](https://www.maketecheasier.com/assets/uploads/2016/05/cmdtools-install.png)
 
 Make sure that you click **Install** and **NOT** 'Get Xcode' or you will end up installing the whole Xcode IDE, which will take quite awhile.
 
@@ -82,6 +82,7 @@ git --version
 
 If it complains with a line like "command not found" then git has not yet been installed. Otherwise it will print out the version of git you have installed. Even if you already have git installed, it's best to upgrade it to the latest version anyway.
 
+#### macOS
 On macOS, open your Terminal and do the following:
 
 1. Update Homebrew and installed packages
@@ -106,6 +107,27 @@ git --version
 
 It should output the latest version of git you just installed.
 
+#### Ubuntu/Debian
+If you're on a Ubuntu or Debian system, open your Terminal and do the following:
+
+1. Add the git PPA (personal package archive) to get the latest git version (you will need to key in your password)
+```bash
+sudo add-apt-repository ppa:git-core/ppa
+```
+1. Update your package repositories:
+```bash
+sudo apt-get update
+```
+2. Install git
+```bash
+sudo apt-get install git
+```
+3. Check your installation
+```bash
+git --version
+```
+
+It should output the latest version of git you just installed.
 
 ### NodeJS and npm
 
