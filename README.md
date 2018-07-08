@@ -104,6 +104,10 @@ Remember, we have lots of online resources to help you out!
 - [MongoDB Getting Started](https://docs.mongodb.com/manual/tutorial/getting-started/)
 - [Integrating Express with MongoDB](https://expressjs.com/en/guide/database-integration.html#mongodb)
 - [Mongoose Docs](http://mongoosejs.com/docs/index.html)
+- [Installing MongoDB on Windows and Ubuntu]
+(https://www.learn2crack.com/2014/04/setup-node-js-and-mongodb.html)
+- [Integrating Express with MongoDB in Windows]
+(http://blog.gvm-it.eu/post/20462477195/getting-started-with-mongodb-and-nodejs-on)
 
 **React + Heroku**
 - [Deploying Create React App to Heroku with zero configuration](https://blog.heroku.com/deploying-react-with-zero-configuration)
