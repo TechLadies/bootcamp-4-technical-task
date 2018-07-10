@@ -9,9 +9,11 @@ To participate in the TechLadies prebootcamp workshops, and in the actual bootca
   * [The command-line/terminal](#the-command-lineterminal)
   * [Xcode Command Line Tools (macOS only)](#xcode-command-line-tools-macos-only)
   * [Homebrew (macOS only)](#homebrew-macos-only)
+  * [Chocolatey (windows only)](#choco-windows-only)
   * [Git](#git)
     * [macOS](#macos)
     * [Ubuntu/Debian](#ubuntudebian)
+    * [Windows](#windows)
   * [NodeJS and npm](#nodejs-and-npm)
     * [Installing the asdf version manager](#installing-the-asdf-version-manager)
     * [Install NodeJS through asdf](#install-nodejs-through-asdf)
@@ -88,6 +90,27 @@ Congrats, you've got brew up and running!
 
 (NOTE: If you're on Linux, not macOS, your system should already come with a package manager installed, that's why you can safely skip this section. Examples for some popular distros: Debian and Ubuntu systems should have apt (Advanced Packaging Tool), while Fedora and CentOS systems should have yum (Yellow Dog Updater, Modified).)
 
+### Chocolatey (Windows only)
+
+[Chocolatey](https://chocolatey.org/) is the "Homebrew" for Windows. This allows you to easily install software through your command-line.
+
+1. To set it up, you will need Administrator access to cmd or Powershell. 
+[Open CMD with Administrator access](https://www.thewindowsclub.com/how-to-run-command-prompt-as-an-administrator)
+
+2. In your cmd (with administrator access) copy - paste the following code to download and install Chocolatey.
+```bash
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+```
+
+Subsequently, installing nodejs and git will be seamless. 
+```bash
+choco install nodejs
+```
+
+```bash
+choco install git
+```
+Git and Nodejs commands will then be similar across the different operating systems. :)
 
 ### Git
 
@@ -140,6 +163,18 @@ sudo apt-get update
 sudo apt-get install git
 ```
 3. Check your installation
+```bash
+git --version
+```
+
+#### Windows
+If you're on Windows, open your command prompt with Administrator access (As explained above).
+
+1. Install git using chocolatey
+```bash
+choco install git
+```
+2. Check your git version
 ```bash
 git --version
 ```
