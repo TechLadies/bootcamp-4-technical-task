@@ -283,18 +283,17 @@ We will be using Visual Studio Code as our text editor. Download and install it 
 @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 ```
 
+### NodeJS
 Subsequently, installing nodejs and git will be seamless. 
 ```bash
 choco install nodejs
 ```
 
-```bash
-choco install git
-```
-Git and Nodejs commands will then be similar across the different operating systems. :)
+Nodejs commands will then be similar across the different operating systems. :)
 
-#### GIT for Windows
-If you're on Windows, open your command prompt with Administrator access (As explained above).
+
+### Git
+Open your command prompt with Administrator access (As explained above).
 
 1. Install git using chocolatey
 ```bash
@@ -305,6 +304,6 @@ choco install git
 git --version
 ```
 
-### That's all folks!
+## That's all folks!
 
 You're done with the setup! Now you can check out the pre-bootcamp workshop git repos, and read the README for instructions on how to run the code!
