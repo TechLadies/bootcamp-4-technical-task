@@ -280,7 +280,7 @@ We will be using Visual Studio Code as our text editor. Download and install it 
 
 Subsequently, installing nodejs and git will be seamless. 
 ```bash
-choco install nodejs
+choco install nodejs --version 8.11.3
 ```
 
 ```bash
