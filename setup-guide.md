@@ -240,6 +240,11 @@ Now you need to install a specific NodeJS version. I recommend installing the la
 asdf install nodejs 8.11.3
 ```
 
+Then set your node version:
+```bash
+asdf global nodejs 8.11.3
+```
+
 If you've successfully installed NodeJS through asdf, you should be able to do:
 ```bash
 node --version
