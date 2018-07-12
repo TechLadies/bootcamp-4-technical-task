@@ -273,7 +273,7 @@ We will be using Visual Studio Code as our text editor. Download and install it 
 
 ### Chocolatey (Windows only)
 
-[Chocolatey](https://chocolatey.org/) is the "Homebrew" for Windows. This allows you to easily install software through your command-line.
+[Chocolatey](https://chocolatey.org/) is a package manager for Windows. This allows you to easily install software through your command-line.
 
 1. To set it up, you will need Administrator access to cmd or Powershell. 
 [Open CMD with Administrator access](https://www.thewindowsclub.com/how-to-run-command-prompt-as-an-administrator)
