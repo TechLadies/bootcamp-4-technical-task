@@ -240,6 +240,11 @@ Now you need to install a specific NodeJS version. I recommend installing the la
 asdf install nodejs 8.11.3
 ```
 
+Then set your node version:
+```bash
+asdf global nodejs 8.11.3
+```
+
 If you've successfully installed NodeJS through asdf, you should be able to do:
 ```bash
 node --version
@@ -268,7 +273,7 @@ We will be using Visual Studio Code as our text editor. Download and install it 
 
 ### Chocolatey (Windows only)
 
-[Chocolatey](https://chocolatey.org/) is the "Homebrew" for Windows. This allows you to easily install software through your command-line.
+[Chocolatey](https://chocolatey.org/) is a package manager for Windows. This allows you to easily install software through your command-line.
 
 1. To set it up, you will need Administrator access to cmd or Powershell. 
 [Open CMD with Administrator access](https://www.thewindowsclub.com/how-to-run-command-prompt-as-an-administrator)
@@ -278,18 +283,17 @@ We will be using Visual Studio Code as our text editor. Download and install it 
 @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 ```
 
+### NodeJS
 Subsequently, installing nodejs and git will be seamless. 
 ```bash
 choco install nodejs --version 8.11.3
 ```
 
-```bash
-choco install git
-```
-Git and Nodejs commands will then be similar across the different operating systems. :)
+Nodejs commands will then be similar across the different operating systems. :)
 
-#### GIT for Windows
-If you're on Windows, open your command prompt with Administrator access (As explained above).
+
+### Git
+Open your command prompt with Administrator access (As explained above).
 
 1. Install git using chocolatey
 ```bash
@@ -310,6 +314,6 @@ git config --global core.eol lf
 git config --global core.autocrlf true
 ```
 
-### That's all folks!
+## That's all folks!
 
 You're done with the setup! Now you can check out the pre-bootcamp workshop git repos, and read the README for instructions on how to run the code!

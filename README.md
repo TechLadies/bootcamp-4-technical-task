@@ -79,7 +79,7 @@ Remember, we have lots of online resources to help you out!
 ### Resources
 
 **Setting up your machine for development**
-- Please go through our handcrafted [setup guide here](https://github.com/TechLadies/bootcamp-4-technical-task/blob/master/setup-guide.md)! This guide will be updated to contain setup instructions for those using Windows as their OS as well, but it only has instructions for those using *nix systems (macOS/Linux) for now
+- Please go through our handcrafted [setup guide here](https://github.com/TechLadies/bootcamp-4-technical-task/blob/master/setup-guide.md)!
 
 **JavaScript**
 - [Introduction to JavaScript on Codeacademy](https://www.codecademy.com/learn/introduction-to-javascript)
