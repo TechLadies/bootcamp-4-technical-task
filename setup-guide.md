@@ -299,6 +299,16 @@ choco install git
 ```bash
 git --version
 ```
+Then configure Git
+
+```
+git config --global user.name "YOUR-USERNAME"
+git config --global user.email "YOUR-EMAIL-ADDRESS"
+git config --global push.default simple
+git config --global credential.helper cache
+git config --global core.eol lf
+git config --global core.autocrlf true
+```
 
 ### That's all folks!
 
